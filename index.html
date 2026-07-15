@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reto Tributario — Declaración de renta para no residentes</title>
+<meta name="description" content="Servicio especializado en declaración de renta para colombianos no residentes. Analizamos tu residencia fiscal, patrimonio, ingresos e inversiones en Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#F3F1EA;}
+  a{color:#8a6a00;}
+  a:hover{color:#5c4700;}
+  ::selection{background:#F5C400;color:#16130C;}
+  button{font-family:inherit;}
+  .choice-option:hover{border-color:#F5C400 !important;}
+</style>
+</head>
+<body>
+<div style="font-family:'Sora',sans-serif;color:#16130C;background:#F3F1EA;width:100%;overflow-x:hidden;">
+
+  <!-- NAV -->
+  <nav style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:18px 32px;background:rgba(243,241,234,.85);backdrop-filter:blur(10px);">
+    <img src="assets/logo-tributario.png" alt="Reto Tributario" style="height:30px;width:auto;object-fit:contain;">
+    <div style="display:flex;align-items:center;gap:4px;background:#fff;padding:6px;border-radius:100px;box-shadow:0 2px 10px rgba(22,19,12,.06);">
+      <a href="#servicio" style="font-size:14px;color:#16130C;text-decoration:none;padding:8px 16px;border-radius:100px;">Servicios</a>
+      <a href="#como-funciona" style="font-size:14px;color:#16130C;text-decoration:none;padding:8px 16px;border-radius:100px;">Cómo funciona</a>
+      <a href="#equipo" style="font-size:14px;color:#16130C;text-decoration:none;padding:8px 16px;border-radius:100px;">Nuestro equipo</a>
+      <a href="#faq" style="font-size:14px;color:#16130C;text-decoration:none;padding:8px 16px;border-radius:100px;">Preguntas frecuentes</a>
+    </div>
+    <a href="#form" style="background:linear-gradient(to bottom,#3a3a3a,#111111);color:#fff;font-size:14px;font-weight:600;padding:11px 22px;border-radius:100px;text-decoration:none;white-space:nowrap;">Solicitar evaluación</a>
+  </nav>
+
+  <!-- PROBLEMA / HERO -->
+  <section style="padding:64px 24px 0;text-align:center;">
+    <div style="display:inline-block;background:#fff;color:#5B5748;font-size:13px;font-weight:600;padding:8px 18px;border-radius:100px;margin-bottom:26px;box-shadow:0 2px 10px rgba(22,19,12,.06);">Servicio especializado para colombianos en el exterior</div>
+    <h1 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:48px;line-height:1.15;margin:0 auto 22px;max-width:820px;text-wrap:pretty;">Vivir fuera de Colombia no significa que tus obligaciones tributarias también se hayan ido</h1>
+    <p style="font-size:17px;line-height:1.65;color:#5B5748;max-width:620px;margin:0 auto 36px;text-wrap:pretty;">Analizamos tu residencia fiscal, patrimonio, ingresos, inversiones y movimientos bancarios para determinar si debes declarar renta en Colombia y ayudarte a cumplir correctamente como persona natural no residente.</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:16px;">
+      <a href="#form" style="background:linear-gradient(to bottom,#3a3a3a,#111111);color:#fff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;padding:16px 32px;border-radius:100px;text-decoration:none;">Quiero revisar mi situación tributaria</a>
+      <a href="#como-funciona" style="border:1.5px solid #16130C;color:#16130C;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16px;padding:16px 32px;border-radius:100px;text-decoration:none;">Ver cómo funciona</a>
+    </div>
+    <p style="font-size:14px;color:#8A8676;max-width:480px;margin:0 auto 56px;">Completa el formulario y cuéntanos brevemente tu caso. Nuestro equipo evaluará la información para determinar cómo podemos ayudarte.</p>
+
+    <!-- HERO IMAGE -->
+    <div style="max-width:920px;margin:0 auto;position:relative;">
+      <div style="border-radius:32px;overflow:hidden;background:radial-gradient(circle at 50% 30%,#FDE9A0 0%,#F5C400 45%,#E0B400 100%);height:440px;display:flex;align-items:flex-end;justify-content:center;position:relative;">
+        <img src="assets/jorge-buitrago.webp" alt="Jorge Buitrago, Reto Tributario" style="width: auto; object-fit: contain; object-position: bottom; margin-top: 80px; height: 100%">
+      </div>
+
+      <!-- TRUST STRIP CARD -->
+      <div style="background:#fff;border-radius:20px;box-shadow:0 24px 60px rgba(22,19,12,.14);padding:26px 32px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;position:relative;margin:-40px auto 0;max-width:880px;">
+        <div style="text-align:center;padding:0 10px;border-right:1px solid #EDE9DC;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15px;margin-bottom:4px;">Atención 100% virtual</div>
+          <div style="font-size:12.5px;color:#8A8676;">Desde cualquier país.</div>
+        </div>
+        <div style="text-align:center;padding:0 10px;border-right:1px solid #EDE9DC;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15px;margin-bottom:4px;">Análisis personalizado</div>
+          <div style="font-size:12.5px;color:#8A8676;">Cada situación es diferente.</div>
+        </div>
+        <div style="text-align:center;padding:0 10px;border-right:1px solid #EDE9DC;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15px;margin-bottom:4px;">Equipo especializado</div>
+          <div style="font-size:12.5px;color:#8A8676;">Tributación de personas naturales.</div>
+        </div>
+        <div style="text-align:center;padding:0 10px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15px;margin-bottom:4px;">Información confidencial</div>
+          <div style="font-size:12.5px;color:#8A8676;">Tratamos tus documentos con seguridad.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DINERO EN COLOMBIA -->
+  <section style="padding:140px 24px 88px;background:#F3F1EA;">
+    <div style="max-width:760px;margin:0 auto;">
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:32px;line-height:1.28;margin:0 0 20px;text-wrap:pretty;">Tu dinero puede estar en Colombia, aunque tú vivas en otro país</h2>
+      <p style="font-size:16.5px;line-height:1.75;color:#3C3830;margin:0 0 18px;">Es común que una persona que reside en el exterior continúe teniendo vínculos económicos con Colombia. Tal vez compraste una vivienda, recibes arrendamientos, conservas inversiones, tienes cuentas bancarias o envías dinero para apoyar a tus padres, pagar una obligación o proteger tus ahorros.</p>
+      <p style="font-size:16.5px;line-height:1.75;color:#3C3830;margin:0 0 18px;">El problema aparece cuando esos movimientos no están correctamente organizados o se realizan mediante cuentas de familiares y terceros. Ante las entidades financieras y la DIAN, el dinero puede quedar asociado a la persona que lo recibió, aunque los recursos realmente te pertenezcan.</p>
+
+      <div style="background:#fff;border-radius:16px;padding:32px;margin:32px 0;">
+        <p style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16px;margin:0 0 16px;">Esto puede generar preguntas como:</p>
+        <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;">
+          <li style="display:flex;gap:12px;align-items:flex-start;"><span style="color:#F5C400;font-weight:700;">→</span><span style="font-size:15.5px;color:#3C3830;">¿Quién debe declarar ese dinero?</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;"><span style="color:#F5C400;font-weight:700;">→</span><span style="font-size:15.5px;color:#3C3830;">¿La transferencia constituye un ingreso para tu familiar?</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;"><span style="color:#F5C400;font-weight:700;">→</span><span style="font-size:15.5px;color:#3C3830;">¿Cómo se demuestra el verdadero origen de los recursos?</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;"><span style="color:#F5C400;font-weight:700;">→</span><span style="font-size:15.5px;color:#3C3830;">¿Debes declarar por conservar bienes o recibir ingresos en Colombia?</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;"><span style="color:#F5C400;font-weight:700;">→</span><span style="font-size:15.5px;color:#3C3830;">¿Eres residente fiscal o no residente para efectos tributarios?</span></li>
+        </ul>
+      </div>
+      <p style="font-size:16.5px;line-height:1.7;color:#3C3830;margin:0 0 32px;">No contar con una respuesta clara puede exponer tanto a quien envía el dinero como a quien lo recibe.</p>
+      <div style="text-align:center;">
+        <a href="#form" style="display:inline-block;background:#16130C;color:#fff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15.5px;padding:16px 34px;border-radius:100px;text-decoration:none;">Solicitar análisis de mi caso</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIO -->
+  <section id="servicio" style="padding:88px 24px;background:#fff;">
+    <div style="max-width:1000px;margin:0 auto;">
+      <div style="text-align:center;max-width:680px;margin:0 auto 56px;">
+        <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:32px;line-height:1.28;margin:0 0 16px;text-wrap:pretty;">Servicio especializado en renta para personas naturales no residentes</h2>
+        <p style="font-size:16.5px;line-height:1.7;color:#5B5748;margin:0;">No nos limitamos a diligenciar un formulario. Revisamos integralmente tu situación para establecer cómo deben tratarse tus bienes, ingresos y movimientos económicos en Colombia.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;">
+        <div style="background:#F8F6EF;border-radius:16px;padding:28px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;color:#8a6a00;margin-bottom:10px;">01</div>
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;margin-bottom:10px;">Determinación de la residencia fiscal</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Analizamos los días de permanencia, vínculos familiares, económicos y demás condiciones relevantes para establecer si debes ser tratado como residente o no residente fiscal.</div>
+        </div>
+        <div style="background:#F8F6EF;border-radius:16px;padding:28px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;color:#8a6a00;margin-bottom:10px;">02</div>
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;margin-bottom:10px;">Revisión de bienes e ingresos en Colombia</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Verificamos propiedades, cuentas bancarias, inversiones, sociedades, arrendamientos, ventas de activos e ingresos obtenidos dentro del país.</div>
+        </div>
+        <div style="background:#F8F6EF;border-radius:16px;padding:28px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;color:#8a6a00;margin-bottom:10px;">03</div>
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;margin-bottom:10px;">Análisis de transferencias y consignaciones</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Revisamos el dinero enviado a familiares o terceros, su origen, finalidad y soportes, para establecer cómo debe ser tratado tributariamente.</div>
+        </div>
+        <div style="background:#F8F6EF;border-radius:16px;padding:28px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;color:#8a6a00;margin-bottom:10px;">04</div>
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;margin-bottom:10px;">Elaboración de la declaración de renta</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Preparamos tu declaración de acuerdo con tu condición tributaria, aplicando el tratamiento correspondiente a las personas naturales no residentes.</div>
+        </div>
+        <div style="background:#F8F6EF;border-radius:16px;padding:28px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;color:#8a6a00;margin-bottom:10px;">05</div>
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;margin-bottom:10px;">Organización de documentos</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Te indicamos qué certificados, contratos, extractos y soportes necesitas conservar para demostrar correctamente cada operación.</div>
+        </div>
+        <div style="background:#F8F6EF;border-radius:16px;padding:28px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;color:#8a6a00;margin-bottom:10px;">06</div>
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;margin-bottom:10px;">Correcciones y situaciones pendientes</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Evaluamos declaraciones vencidas, errores en declaraciones anteriores, comunicaciones de la DIAN y posibles inconsistencias tributarias.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SITUACIONES -->
+  <section style="padding:88px 24px;background:#F3F1EA;">
+    <div style="max-width:820px;margin:0 auto;">
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:30px;text-align:center;margin:0 0 40px;">Este servicio puede ser para ti si…</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin-bottom:40px;">
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">Vives fuera de Colombia y conservas una casa, apartamento, lote u otro inmueble.</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">Recibes ingresos por arrendamientos, servicios, inversiones o actividades desarrolladas en Colombia.</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">Envías dinero a la cuenta de tus padres, pareja, hermanos o familiares.</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">Estás pagando una vivienda o realizando inversiones desde el exterior.</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">Tienes cuentas bancarias, CDT, acciones o participaciones en sociedades colombianas.</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">Vendiste un inmueble, una inversión o cualquier otro activo ubicado en Colombia.</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">No sabes si eres residente fiscal o no residente.</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">La DIAN te envió una comunicación o detectaste una obligación pendiente.</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">Necesitas presentar o corregir tu declaración de renta.</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:14px;padding:16px 18px;"><span style="color:#F5C400;font-weight:700;flex:0 0 auto;">✓</span><span style="font-size:15px;color:#3C3830;line-height:1.5;">Quieres organizar tu situación antes de que se convierta en un problema.</span></div>
+      </div>
+      <div style="text-align:center;">
+        <a href="#form" style="display:inline-block;background:#16130C;color:#fff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15.5px;padding:16px 34px;border-radius:100px;text-decoration:none;">Quiero saber si debo declarar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAL -->
+  <section style="padding:88px 24px;background:#fff;">
+    <div style="max-width:1000px;margin:0 auto;">
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:30px;text-align:center;margin:0 0 44px;">¿Por qué realizar tu declaración con nosotros?</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;">
+        <div style="border:1px solid #EDE9DC;border-radius:16px;padding:26px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:10px;">Analizamos antes de declarar</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">No todas las personas que viven en el exterior tienen la misma condición tributaria. Primero estudiamos tu situación y después definimos el procedimiento adecuado.</div>
+        </div>
+        <div style="border:1px solid #EDE9DC;border-radius:16px;padding:26px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:10px;">Revisamos más que los topes</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">La obligación no depende únicamente de las consignaciones. También deben considerarse la residencia fiscal, el patrimonio, los ingresos de fuente colombiana y las operaciones realizadas durante el año.</div>
+        </div>
+        <div style="border:1px solid #EDE9DC;border-radius:16px;padding:26px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:10px;">Te ayudamos a respaldar tus movimientos</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Una transferencia puede tener distintas finalidades: ayuda familiar, préstamo, inversión, pago de una obligación o administración de recursos. La documentación permite demostrar su verdadera naturaleza.</div>
+        </div>
+        <div style="border:1px solid #EDE9DC;border-radius:16px;padding:26px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:10px;">Atención desde cualquier país</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Todo el proceso puede realizarse virtualmente, mediante canales seguros y con acompañamiento profesional.</div>
+        </div>
+        <div style="border:1px solid #EDE9DC;border-radius:16px;padding:26px;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:10px;">Protegemos también a tu familia</div>
+          <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Cuando utilizas cuentas de terceros, el análisis puede involucrar tanto tu situación como la de la persona que recibió el dinero.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONVERSION BAND -->
+  <section style="background:#F5C400;padding:64px 24px;text-align:center;">
+    <div style="max-width:640px;margin:0 auto;">
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:28px;color:#16130C;margin:0 0 14px;text-wrap:pretty;">Enviar dinero a Colombia no debería convertirse en un problema tributario</h2>
+      <p style="font-size:15.5px;color:#3C3830;margin:0 0 28px;line-height:1.6;">El riesgo aparece cuando no existen documentos que expliquen de quién es el dinero, por qué fue enviado y cuál fue su destino. Una adecuada organización marca la diferencia frente a la DIAN.</p>
+      <a href="#form" style="display:inline-block;background:#16130C;color:#F5C400;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;padding:17px 36px;border-radius:100px;text-decoration:none;">Revisar mis movimientos en Colombia</a>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section id="como-funciona" style="padding:88px 24px;background:#F3F1EA;">
+    <div style="max-width:760px;margin:0 auto;">
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:30px;text-align:center;margin:0 0 48px;">Resolver tu situación puede comenzar hoy</h2>
+      <div style="display:flex;flex-direction:column;gap:0;">
+        <div style="display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #E3DFCF;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;color:#F5C400;flex:0 0 44px;">01</div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:6px;">Completa el formulario</div>
+            <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Cuéntanos en qué país resides y qué bienes, ingresos o movimientos tienes en Colombia.</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #E3DFCF;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;color:#F5C400;flex:0 0 44px;">02</div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:6px;">Revisamos tu caso</div>
+            <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Nuestro equipo realizará una evaluación inicial para identificar el alcance del servicio que necesitas.</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #E3DFCF;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;color:#F5C400;flex:0 0 44px;">03</div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:6px;">Recibes una propuesta</div>
+            <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Te informaremos los documentos requeridos, el procedimiento y el valor del servicio profesional.</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #E3DFCF;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;color:#F5C400;flex:0 0 44px;">04</div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:6px;">Preparamos tu declaración</div>
+            <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Analizamos la documentación y elaboramos la declaración de acuerdo con tu condición tributaria.</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #E3DFCF;">
+          <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;color:#F5C400;flex:0 0 44px;">05</div>
+          <div>
+            <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:6px;">Te acompañamos hasta finalizar</div>
+            <div style="font-size:14.5px;line-height:1.6;color:#5B5748;">Recibirás orientación durante la revisión, presentación y organización de los soportes correspondientes.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPO -->
+  <section id="equipo" style="padding:88px 24px;background:#fff;">
+    <div style="max-width:940px;margin:0 auto;display:grid;grid-template-columns:280px 1fr;gap:48px;align-items:center;">
+      <img src="assets/jorge-buitrago.webp" alt="Equipo Reto Legal" style="width:100%;height:auto;border-radius:20px;background:#F8F6EF;">
+      <div>
+        <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:28px;line-height:1.3;margin:0 0 18px;text-wrap:pretty;">Un equipo que entiende las implicaciones de vivir fuera y conservar vínculos económicos con Colombia</h2>
+        <p style="font-size:15.5px;line-height:1.7;color:#5B5748;margin:0 0 14px;">En Reto Legal y Reto Tributario reunimos experiencia jurídica, contable y tributaria para analizar cada caso de manera integral.</p>
+        <p style="font-size:15.5px;line-height:1.7;color:#5B5748;margin:0 0 28px;">Nuestro propósito es ayudarte a cumplir correctamente, organizar tus operaciones y reducir el riesgo de errores frente a la DIAN, con acompañamiento personalizado sin importar el país en el que te encuentres.</p>
+        <a href="#form" style="display:inline-block;background:#16130C;color:#fff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15px;padding:15px 30px;border-radius:100px;text-decoration:none;">Hablar con nuestro equipo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section style="padding:88px 24px;background:#F3F1EA;">
+    <div style="max-width:960px;margin:0 auto;">
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:30px;text-align:center;margin:0 0 44px;">La tranquilidad de tener tu situación correctamente revisada</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;">
+        <div style="background:#fff;border-radius:16px;padding:26px;">
+          <p style="font-size:15px;line-height:1.6;color:#3C3830;margin:0 0 16px;">"Un gran profesional. Fue un excelente servicio."</p>
+          <p style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:13px;color:#8a6a00;margin:0;">— Cliente no residente</p>
+        </div>
+        <div style="background:#fff;border-radius:16px;padding:26px;">
+          <p style="font-size:15px;line-height:1.6;color:#3C3830;margin:0 0 16px;">"Quedé tranquilo tributariamente."</p>
+          <p style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:13px;color:#8a6a00;margin:0;">— Cliente Reto Legal</p>
+        </div>
+        <div style="background:#fff;border-radius:16px;padding:26px;">
+          <p style="font-size:15px;line-height:1.6;color:#3C3830;margin:0 0 16px;">"Me siento seguro tributariamente gracias a Jorge Buitrago."</p>
+          <p style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:13px;color:#8a6a00;margin:0;">— Cliente Reto Legal</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section id="form" style="padding:96px 24px;background:#16130C;display:flex;justify-content:center;">
+    <div style="max-width:640px;width:100%;">
+      <div style="text-align:center;margin-bottom:16px;">
+        <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:28px;color:#fff;margin:0 0 10px;">Cuéntanos tu situación</h2>
+        <p style="font-size:15px;color:#B8B4A8;margin:0 0 4px;">Responde estas preguntas para identificar el acompañamiento que necesitas.</p>
+        <p style="font-size:13.5px;color:#8A8676;margin:0;">Te tomará menos de tres minutos. La información se usará solo para conocer tu caso y contactarte.</p>
+      </div>
+
+      <div style="background:#fff;border-radius:20px;padding:40px;box-shadow:0 24px 60px rgba(0,0,0,.35);">
+        <div style="height:6px;background:#EFEAE0;border-radius:100px;margin-bottom:12px;overflow:hidden;">
+          <div id="progress-bar" style="height:100%;background:#F5C400;border-radius:100px;transition:width .3s ease;width:0%;"></div>
+        </div>
+        <p id="step-counter" style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:13px;color:#8a6a00;margin:0 0 24px;">Pregunta 1 de 13</p>
+
+        <h3 id="question-label" style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:22px;color:#16130C;margin:0 0 24px;line-height:1.35;"></h3>
+
+        <div id="field-text-wrap" style="display:none;">
+          <input id="field-text" type="text" style="width:100%;box-sizing:border-box;padding:16px 18px;border:2px solid #EAE4D4;border-radius:12px;font-family:'Sora',sans-serif;font-size:16px;outline:none;">
+        </div>
+
+        <div id="field-email-wrap" style="display:none;">
+          <input id="field-email" type="email" placeholder="tucorreo@ejemplo.com" style="width:100%;box-sizing:border-box;padding:16px 18px;border:2px solid #EAE4D4;border-radius:12px;font-family:'Sora',sans-serif;font-size:16px;outline:none;">
+        </div>
+
+        <div id="field-phone-wrap" style="display:none;">
+          <div style="display:flex;gap:10px;">
+            <select id="field-phone-code" style="flex:0 0 130px;padding:16px 8px;border:2px solid #EAE4D4;border-radius:12px;font-family:'Sora',sans-serif;font-size:15px;background:#fff;"></select>
+            <input id="field-phone-number" type="tel" placeholder="Número de WhatsApp" style="flex:1;box-sizing:border-box;padding:16px 18px;border:2px solid #EAE4D4;border-radius:12px;font-family:'Sora',sans-serif;font-size:16px;outline:none;min-width:0;">
+          </div>
+        </div>
+
+        <div id="field-select-wrap" style="display:none;">
+          <select id="field-select" style="width:100%;box-sizing:border-box;padding:16px 18px;border:2px solid #EAE4D4;border-radius:12px;font-family:'Sora',sans-serif;font-size:16px;background:#fff;">
+            <option value="">Selecciona un país</option>
+          </select>
+        </div>
+
+        <div id="field-choice-wrap" style="display:none;">
+          <div id="field-choice-options" style="display:flex;flex-direction:column;gap:10px;max-height:360px;overflow-y:auto;padding-right:4px;"></div>
+        </div>
+
+        <div id="last-step-note" style="display:none;background:#F8F6EF;border-radius:12px;padding:18px 20px;margin-top:20px;">
+          <p style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:13.5px;margin:0 0 10px;color:#16130C;">Información importante</p>
+          <ul style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;">
+            <li style="font-size:13px;color:#5B5748;">Este es un servicio profesional personalizado.</li>
+            <li style="font-size:13px;color:#5B5748;">La elaboración y revisión de la declaración tiene costo.</li>
+            <li style="font-size:13px;color:#5B5748;">El envío del formulario no constituye todavía una asesoría tributaria.</li>
+            <li style="font-size:13px;color:#5B5748;">Nos comunicaremos contigo por WhatsApp o correo electrónico.</li>
+          </ul>
+        </div>
+
+        <div style="display:flex;gap:12px;margin-top:32px;">
+          <button id="btn-back" type="button" style="display:none;flex:0 0 auto;background:#F3EFE4;color:#16130C;border:none;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;padding:16px 24px;border-radius:100px;cursor:pointer;">Atrás</button>
+          <button id="btn-next" type="button" disabled style="flex:1;background:#EFEAE0;color:#16130C;border:none;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;padding:16px 24px;border-radius:100px;cursor:not-allowed;">Siguiente</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" style="padding:88px 24px;background:#F3F1EA;">
+    <div style="max-width:720px;margin:0 auto;">
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:30px;text-align:center;margin:0 0 40px;">Preguntas frecuentes</h2>
+      <div id="faq-list" style="display:flex;flex-direction:column;gap:12px;"></div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section style="padding:96px 24px;background:#16130C;text-align:center;">
+    <div style="max-width:680px;margin:0 auto;">
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:32px;color:#fff;margin:0 0 18px;line-height:1.3;text-wrap:pretty;">No esperes a que una transferencia, una propiedad o una inversión genere una inconsistencia</h2>
+      <p style="font-size:16px;line-height:1.7;color:#D8D4C8;margin:0 0 32px;">Permite que un equipo especializado revise tu caso, determine tus obligaciones y prepare correctamente tu declaración de renta como no residente.</p>
+      <a href="#form" style="display:inline-block;background:#F5C400;color:#16130C;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:17px;padding:18px 40px;border-radius:100px;text-decoration:none;margin-bottom:18px;">Solicitar mi evaluación tributaria</a>
+      <p style="font-size:13.5px;color:#8A8676;margin:0;">Atención virtual para colombianos y personas con vínculos económicos en Colombia, sin importar el país donde residan.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background:#16130C;padding:36px 24px;text-align:center;border-top:1px solid #2A2620;">
+    <img src="assets/logo-tributario.png" alt="Reto Tributario" style="height:22px;width:auto;object-fit:contain;margin-bottom:12px;">
+    <p style="font-size:13px;color:#7A766B;margin:0 0 4px;">Reto Legal — firma interdisciplinaria de abogados y contadores tributarios.</p>
+    <a href="mailto:informacion@retolegal.com" style="font-size:13px;color:#F5C400;text-decoration:none;">informacion@retolegal.com</a>
+  </footer>
+
+</div>
+
+<script src="js/form.js"></script>
+</body>
+</html>
